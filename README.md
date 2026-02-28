@@ -164,40 +164,11 @@ Manage Jenkins → Tools
 
 ---
 
-# 🔐 Credentials Configuration
-
-## 🔑 How to Generate GitHub Personal Access Token (PAT)
-
-1. Log in to GitHub.
-2. Profile → Settings.
-3. Developer Settings → Personal Access Tokens → Tokens (classic).
-4. Click **Generate new token (classic)**.
-5. Configure:
-   - Note: `jenkins-access-token`
-   - Expiration: Choose appropriate duration
-   - Scopes:
-     - repo (Required for repository access)
-     - workflow (Optional if required)
-6. Generate token.
-7. Copy it immediately (shown only once).
-
-Store it securely.
-
----
-
 ## 🔒 Add Credentials in Jenkins
 
 Go to:
 
 Manage Jenkins → Credentials → System → Global Credentials → Add Credentials
-
-### GitHub Token
-
-- Kind: Secret text
-- ID: `github-credentials`
-- Secret: GitHub PAT
-
----
 
 ### SonarQube Token
 
