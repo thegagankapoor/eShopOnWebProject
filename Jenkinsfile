@@ -348,7 +348,7 @@ pipeline {
                         if (-not \$runtimeInstalled) {
                             Write-Host "[!] ASP.NET Core 8 runtime NOT found. Installing..."
 
-                            \$installerUrl = "https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-8.0.0-windows-hosting-bundle-installer"
+                            \$installerUrl = "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/8.0.24/dotnet-hosting-8.0.24-win.exe"
                             \$installerPath = "C:\\\\Jenkins\\\\dotnet-hosting-8.exe"
 
                             Invoke-WebRequest -Uri \$installerUrl -OutFile \$installerPath
