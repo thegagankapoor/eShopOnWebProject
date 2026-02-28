@@ -31,7 +31,7 @@ https://github.com/thegagankapoor/eShopOnWeb
 - AWS EC2 Instance (Ubuntu)
 - Windows Machine (for IIS & Agent)
 - GitHub Account
-- Open Ports: 8080, 9000, 50000
+- Open Ports: 8080, 9000
 
 ---
 
@@ -39,7 +39,18 @@ https://github.com/thegagankapoor/eShopOnWeb
 
 Jenkins and SonarQube are provisioned automatically using an **EC2 User Data Script (available in this repository).**
 
-The script performs:
+## 🚀 Steps to Use the User Data Script
+
+1. Launch a new EC2 instance (Ubuntu).
+2. Scroll down to **Advanced Details**.
+3. Locate the **User Data** section.
+4. Paste the entire User Data script.
+5. Launch the instance.
+
+
+---
+
+## 🛠 What the Script Performs
 
 - Install Java 21
 - Install Jenkins
