@@ -32,7 +32,6 @@ pipeline {
                     steps {
                         echo 'Checking out code...'
                         git branch: 'main',
-                            credentialsId: 'github-credentials',
                             url: 'https://github.com/thegagankapoor/eShopOnWeb'
                     }
                 }
