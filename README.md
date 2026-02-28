@@ -187,7 +187,7 @@ Manage Jenkins → System → SonarQube Installations
 Add:
 
 - Name: `SonarQube`
-- Server URL: `http://localhost:9000`
+- Server URL: `http://Sonar_URL:9000`
 - Server Authentication Token: `sonarqube-token`
 
 Save.
@@ -318,7 +318,7 @@ Create:
 - Labels: `windows-iis-agent`
 - Usage: Only build jobs with matching label
 - Launch Method: Launch agent by connecting it to the controller
-- Click on the Windows Agent and then you will see "Run from agent command line: (Windows)" Run those 2 commands on your windows machine power shell
+- Click on "Save"
 
 Save.
 
