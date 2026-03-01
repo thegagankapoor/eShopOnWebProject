@@ -41,21 +41,21 @@ pipeline {
                     }
                 }
                 
-                // stage('OWASP Dependency Check') {
-                //     steps {
-                //         echo "=====Running OWASP Dependency Check"
+                stage('OWASP Dependency Check') {
+                    steps {
+                        echo "=====Running OWASP Dependency Check"
 
-                //         dependencyCheck(
-                //             odcInstallation: 'DP-Check',
-                //             additionalArguments: '''
-                //                 --scan .
-                //                 --format HTML
-                //                 --format XML
-                //                 --failOnCVSS 11
-                //                 '''
-                //         )
-                //     }
-                // }
+                        dependencyCheck(
+                            odcInstallation: 'DP-Check',
+                            additionalArguments: '''
+                                --scan .
+                                --format HTML
+                                --format XML
+                                --failOnCVSS 11
+                                '''
+                        )
+                    }
+                }
                 stage('Build') {
                     steps {
                         echo 'Building the solution...'
