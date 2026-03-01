@@ -242,7 +242,7 @@ http://localhost
 
 ---
 
-> ⚠️ Run PowerShell as Administrator for the following steps.
+> ⚠️ **Run PowerShell as Administrator for the following steps.**
 
 ---
 
