@@ -55,7 +55,6 @@ Jenkins and SonarQube are provisioned automatically using an **EC2 User Data Scr
 - Install Java 21
 - Install Jenkins
 - Install SonarQube
-- Configure required ports (8080, 9000)
 - Start Jenkins & SonarQube services
 
 No manual installation is required.
@@ -249,7 +248,7 @@ http://localhost
 
 ## 2️⃣ Install Java (Required for Jenkins Agent)
 
-Install Java 17.
+Install Java 17+.
 
 Verify:
 
