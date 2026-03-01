@@ -351,7 +351,7 @@ eShopOnWeb-Pipeline
 Configure:
 
 - Pipeline script from SCM → Git
-- Repository: https://github.com/thegagankapoor/eShopOnWeb
+- Repository: https://github.com/thegagankapoor/eShopOnWebProject.git
 - Branch: main
 - Script Path: Jenkinsfile
 
@@ -378,22 +378,6 @@ After successful deployment:
 ```
 http://localhost:8081
 ```
-
----
-
-# ⚠️ Common Errors
-
-## SQL Server Connection Error
-
-Example:
-
-```
-SqlException: error 26 - Error Locating Server/Instance Specified
-```
-
-Reason: Database not configured.
-
-Fix: Update connection string properly.
 
 ---
 
