@@ -18,7 +18,7 @@ pipeline {
     }
     
     stages {
-        stage('Build and Test') {
+        stage('Continuous Integration') {
             agent any  // Use default Linux agent for build
             
             tools {
